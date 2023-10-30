@@ -3,27 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Il Mio Portfolio</title>
-    <!-- Includiamo Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="linkedin-favicon.png" type="image/x-icon">
 </head>
 <body>
-    <div class="container text-center mt-5">
-        <!-- Immagine del profilo -->
-        <img src="cv.jpg" class="img-fluid rounded-circle" alt="Immagine del profilo" style="width: 200px; height: 200px;">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#about">Chi Sono</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="https://www.linkedin.com/in/giovanni-saponaro-456955240/" target="_blank">
+                    <img src="Linkedin.png" alt="LinkedIn" width="20" height="20">
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <header class="container text-center mt-5">
         <h1>Giovanni Saponaro</h1>
-        <p>Tecnico Informatico - Help Desk</p>
+        <p></p>Tecnico Informatico - Help Desk</p>
         <p>Appassionato di CyberSecurity</p>
-        <p>Ho sempre avuto una forte passione per il settore IT mantenendomi sempre aggiornato rispetto alle innovazioni. Ho maturato una solida esperienza nella gestione dell'assistenza Hardware e Software, riparazione computer,installazione e configurazione reti interfacciandomi con clienti privati, piccole imprese.</p>
-        <!-- Collegamento a LinkedIn con favicon -->
-        <a href="https://www.linkedin.com/in/giovanni-saponaro-456955240/" target="_blank" rel="noopener noreferrer">
-            <img src="Linkedin.png" alt="LinkedIn" style="width: 24px; height: 24px;">
-        </a>
+    </header>
+
+    <!-- Inserisci la tua foto al centro -->
+    <div class="container text-center mt-5">
+        <img src="cv.jpg" alt="La Tua Foto" class="img-fluid rounded-circle" width="200">
     </div>
 
-    <!-- Includiamo Bootstrap JS e jQuery per abilitare alcune funzionalità di Bootstrap (opzionale) -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+
+    <section id="about" class="container mt-5">
+        <h2>Chi Sono</h2>
+        <p>Sono un tecnico informatico/help desk, con una passione per l'aiutare gli utenti a risolvere i loro problemi informatici. Ho maturato una solida esperienza su hardware e software mantenendomi sempre aggiornato rispetto alle innovazioni in quanto mi piace essere di aiuto ad utenti privati e imprese. Sono noto per la mia pazienza e la mia dedizione nel garantire che gli utenti abbiano esperienze positive con la tecnologia.</p>
+    <footer class="container mt-5 text-center">
+        <p>&copy; 2023 Giovanni Saponaro</p>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
